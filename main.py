@@ -1,16 +1,20 @@
-# This is a sample Python script.
+print("sveiki")
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+#print(list(range(1,10)))
+numbersSequence = range(100, 110)
+print(list(numbersSequence))
+for i in numbersSequence:
+    print("spausdiname ")
+    print(" dar")
+    print("kart")
+print("po visko")
 
+for i in numbersSequence:
+    print(i)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# [100, 101, 102, 4, 5, 6, 7, 8, 9]
 
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+  print(fruit.upper())
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
