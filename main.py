@@ -52,14 +52,75 @@ for fruit in fruits:
         break
     print(fruit)
 print("----------------------")
-input = input("select a fruit:")
-hasFruit = False
-for fruit in fruits:
-    if fruit == input:
-        print("there you are, one",input)
-        hasFruit = True
+# inputStr = input("select a fruit:")
+# hasFruit = False
+# for fruit in fruits:
+#     if fruit == inputStr:
+#         print("there you are, one",fruit)
+#         hasFruit = True
+#         break
+
+
+# if not hasFruit:
+#     print("sorry, we dont have such fruit")
+
+for i in reversed(range(0, 10)):
+    print(i)
+print("----------------------")
+
+for i in reversed("labas"):
+    print(i)
+
+# counter = 0
+# while True:
+#     counter +=1
+#     if counter % 1000000 == 0:
+#         print(counter / 1000000)
+#     if counter > 14565316:
+#         break
+#
+# prekiu_kiekis = 24
+# while prekiu_kiekis > 0:
+#     print(f'turimas prekiu kiekis: {prekiu_kiekis}')
+#     nupirkta = int(input("Kiek norite nupirkti?"))
+#     if nupirkta > prekiu_kiekis:
+#         print("deje tiek prekiu neturime")
+#         continue
+#     print(f'nupirkote: {nupirkta}\n')
+#     prekiu_kiekis -= nupirkta
+#
+# print("prekes isparduotoss")
+
+ct = 0
+while True:
+    ct += 1
+    if ct == 5:
         break
+    print("labas",ct)
+print("------")
+ct = 0
+shouldGo = True
+while shouldGo:
+    ct += 1
+    if ct == 5:
+        shouldGo = False
+    print("labas",ct)
 
+print("------")
+#       0,1,2,3,4,5, 6, 7
+list = [4,5,6,7,8,21,5]
+print(list)
+for i in list:
+    print(i)
 
-if not hasFruit:
-    print("sorry, we dont have such fruit")
+print("------")
+print(list[0])# atspausdinti reikme 4
+list[0] = 14 # pakeiciu 0-oj pozijijoje 4to reiksme i 14
+print(list[0]) # isspausdinu nauja 0os pozicijos reiksme
+print(len(list))
+print(list[6],"6ta pos")
+# print(list[7])
+list.append(5)
+print(print(7))
+del list[7]
+print(print(7))
